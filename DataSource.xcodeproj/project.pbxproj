@@ -96,8 +96,6 @@
 		022B0F991B2F2AE500DD4DCD /* DataSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		022B0F9D1B2F2AE500DD4DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		022B0F9E1B2F2AE500DD4DCD /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
-		022B0FAA1B2F2AE500DD4DCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		022B0FAB1B2F2AE500DD4DCD /* DataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceTests.swift; sourceTree = "<group>"; };
 		022B0FB61B2F2D4B00DD4DCD /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		022B0FB71B2F2D4B00DD4DCD /* CollectionViewChangeTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewChangeTarget.swift; sourceTree = "<group>"; };
 		022B0FB81B2F2D4B00DD4DCD /* CollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewDataSource.swift; sourceTree = "<group>"; };
@@ -169,7 +167,6 @@
 			children = (
 				022B10351B2F341200DD4DCD /* Frameworks */,
 				022B0F9B1B2F2AE500DD4DCD /* DataSource */,
-				022B0FA81B2F2AE500DD4DCD /* DataSourceTests */,
 				022B0F9A1B2F2AE500DD4DCD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -205,23 +202,6 @@
 			isa = PBXGroup;
 			children = (
 				022B0F9D1B2F2AE500DD4DCD /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		022B0FA81B2F2AE500DD4DCD /* DataSourceTests */ = {
-			isa = PBXGroup;
-			children = (
-				022B0FAB1B2F2AE500DD4DCD /* DataSourceTests.swift */,
-				022B0FA91B2F2AE500DD4DCD /* Supporting Files */,
-			);
-			path = DataSourceTests;
-			sourceTree = "<group>";
-		};
-		022B0FA91B2F2AE500DD4DCD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				022B0FAA1B2F2AE500DD4DCD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
