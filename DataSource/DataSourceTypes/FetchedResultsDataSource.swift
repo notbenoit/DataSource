@@ -54,9 +54,15 @@ public final class FetchedResultsDataSource: DataSource {
 	}
 
 	public func supplementaryItemOfKind(_ kind: String, inSection section: Int) -> Any? {
+		#if swift(>=4.2)
+		if kind != UICollectionView.elementKindSectionHeader {
+			return nil
+		}
+		#else
 		if kind != UICollectionElementKindSectionHeader {
 			return nil
 		}
+		#endif
 		let sectionInfo = self.infoForSection(section)
 		return sectionInfo.name
 	}

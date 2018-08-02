@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DataSource"
-  s.version      = "0.5.4"
+  s.version      = "0.6.0"
   s.summary      = "DataSource is a MVVM [Table|Collection]View data management library"
   s.description  = "DataSource is a Swift framework that helps you specify, display and manipulate sectioned collections of items in UITableview and UICollectionView in an MVVM (Model-View-ViewModel) fashion without having to deal with index mapping or writing repetitive and error-prone code to handle and display changes of those collections."
   s.homepage     = "https://github.com/notbenoit/DataSource"
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.dependency 'ReactiveCocoa', '~> 8.0'
 
   s.cocoapods_version = ">= 1.4.0"
-  s.swift_version = "4.1.2"
+  s.swift_version = "4.2.0"
 end
